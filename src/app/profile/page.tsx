@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="bg-gradient-to-r from-blue-50 to-indigo-50 min-h-screen py-10 flex justify-center items-center">
-      <div className="container max-w-4xl bg-white shadow-2xl rounded-lg overflow-hidden">
+      <div className="container max-w-5xl bg-white shadow-2xl rounded-lg overflow-hidden">
         <section className="p-10 border-b border-gray-200">
           <h1 className="text-5xl font-extrabold text-gray-900 tracking-tight leading-tight">
             반갑습니다. <br />
@@ -23,8 +23,8 @@ export default function Home() {
           </h2>
           <div className="space-y-8">
             <div className="bg-white shadow-lg rounded-lg p-6 border border-gray-200">
-              <div className="grid grid-cols-4 gap-6">
-                <div className="col-span-1 border-r pr-6">
+              <div className="grid grid-cols-1 sm:grid-cols-4 gap-6">
+                <div className="col-span-1 sm:border-r pr-6">
                   <h2 className="text-3xl font-bold text-gray-800">
                     스마트스코어
                   </h2>
@@ -35,7 +35,7 @@ export default function Home() {
                     <time dateTime="2023-08">2023.08</time> - 현재
                   </span>
                 </div>
-                <div className="col-span-3 pl-6 space-y-8">
+                <div className="col-span-3 space-y-8 border-gray-100">
                   <div className="project">
                     <h3 className="text-2xl font-semibold text-gray-800">
                       골프썸
@@ -60,6 +60,7 @@ export default function Home() {
                     </h4>
                     <p className="text-gray-600 mt-2">Vue2</p>
                   </div>
+                  <hr className="my-4 border-gray-200" />
                   <div className="project">
                     <h3 className="text-2xl font-semibold text-gray-800">
                       클럽페이지
@@ -89,8 +90,8 @@ export default function Home() {
             </div>
 
             <div className="bg-white shadow-lg rounded-lg p-6 border border-gray-200">
-              <div className="grid grid-cols-4 gap-6">
-                <div className="col-span-1 border-r pr-6">
+              <div className="grid grid-cols-1 sm:grid-cols-4 gap-6">
+                <div className="col-span-1 sm:border-r pr-6">
                   <h2 className="text-3xl font-bold text-gray-800">
                     파인디지털
                   </h2>
@@ -101,7 +102,7 @@ export default function Home() {
                     <time dateTime="2023-08">2023.08</time> - 현재
                   </span>
                 </div>
-                <div className="col-span-3 pl-6 space-y-8">
+                <div className="col-span-3  space-y-8 border-gray-100">
                   <div className="project">
                     <h3 className="text-2xl font-semibold text-gray-800">
                       골프썸
@@ -126,6 +127,7 @@ export default function Home() {
                     </h4>
                     <p className="text-gray-600 mt-2">Vue2</p>
                   </div>
+                  <hr className="my-4 border-gray-200" />
                   <div className="project">
                     <h3 className="text-2xl font-semibold text-gray-800">
                       클럽페이지
